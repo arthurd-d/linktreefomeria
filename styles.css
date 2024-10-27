@@ -1,4 +1,4 @@
-@import url(fonts.css);
+@import url('/Components/styles/fonts.css');
 
 footer{
     position: sticky;
@@ -46,7 +46,7 @@ h1{
 
 body{
     text-align: center;
-    background-image: url(fundoo.png);
+    background-image: url('/Components/img/fundoo.png');
     background-size: cover;
 }
 li{
