@@ -1,0 +1,74 @@
+@import url(fonts.css);
+
+footer{
+    position: sticky;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
+img{
+    width: 500px;
+    height: auto;
+
+}
+
+#caixa{
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    display: block;
+    color:inherit;
+    font-size: 25px;
+}
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+*{
+    font-family: 'HurmeGeometricSans';
+    color: white;
+}
+h1{
+    font-family: 'HurmeGeometricSans_bold';
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    display: inline-block;
+}
+
+body{
+    text-align: center;
+    background-image: url(fundoo.png);
+    background-size: cover;
+}
+li{
+    padding: 10px;  
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    border-width: 2px;
+    margin: 10px 40% 10px 40%;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+
+    
+}
+li:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: #FF5959;
+    transform: scale(1.1);
+}
+
+.rodape{
+    font-size: 20px;
+    margin: 5px;
+    display: block;
+}

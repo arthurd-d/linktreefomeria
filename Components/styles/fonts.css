@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'HurmeGeometricSans_black';
+    src: url(HurmeGeometricSans1-Black.otf);
+}
+@font-face {
+    font-family: 'HurmeGeometricSans_bold';
+    src: url(HurmeGeometricSans1-Bold.otf);
+}
+@font-face {
+    font-family: 'HurmeGeometricSans_light';
+    src: url(HurmeGeometricSans1-Light.otf);
+}
+@font-face {
+    font-family: 'HurmeGeometricSans_oblique';
+    src: url(HurmeGeometricSans1-Oblique.otf);
+}
+@font-face {
+    font-family: 'HurmeGeometricSans_semibold';
+    src: url(HurmeGeometricSans1-SemiBold.otf);
+}
+@font-face {
+    font-family: 'HurmeGeometricSans';
+    src: url(HurmeGeometricSans1.otf);
+}
