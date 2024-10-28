@@ -31,7 +31,12 @@ p{
 img{
     width: 500px;
     height: auto;
+}
 
+#logo{
+    margin: 0 auto;
+    display: block;
+    align-items: center;
 }
 
 a{
@@ -61,6 +66,9 @@ body{
     text-align: center;
     background-image: url('/Components/img/fundoo.png');
     background-size: cover;
+    background-position: center;
+    background-size: contain;
+    
 }
 .links{
     padding: 10px;  
@@ -68,7 +76,7 @@ body{
     border-radius: 25px;
     border-color: white;
     border-width: 2px;
-    max-width: 400px;
+    max-width: 200px;
     margin: 10px 40% 10px 40%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background-color 0.5s ease, transform 0.5s ease;
