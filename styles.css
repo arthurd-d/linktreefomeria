@@ -12,8 +12,6 @@ html, body{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    place-items: center;
 }
 
 footer{
@@ -27,6 +25,8 @@ li{
 p{
     font-size: 30px;
     color: white;
+    display: block;
+    margin-bottom: 10px;
 }
 img{
     width: 500px;
@@ -60,6 +60,7 @@ h1{
     color: white;
     font-size: 70px;
     display: inline-block;
+    padding: 10px;
 }
 
 body{
@@ -86,8 +87,6 @@ body{
 .links{
     margin: 1em;
     display: block;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente */
     
     
 }
