@@ -8,6 +8,13 @@ html, body{
     padding: 0;
     margin: 0;
 }
+#caixa{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
 
 footer{
     position: sticky;
@@ -27,9 +34,6 @@ img{
 
 }
 
-#caixa{
-    color: rgb(255, 255, 255);
-}
 a{
     text-decoration: none;
     display: block;
@@ -58,15 +62,25 @@ body{
     background-image: url('/Components/img/fundoo.png');
     background-size: cover;
 }
-li{
+.links{
     padding: 10px;  
     border-style: solid;
     border-radius: 25px;
     border-color: white;
     border-width: 2px;
+    max-width: 400px;
     margin: 10px 40% 10px 40%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background-color 0.5s ease, transform 0.5s ease;
+    
+}
 
+.links{
+    margin: 1em;
+    display: block;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    
     
 }
 li:hover{
@@ -80,4 +94,5 @@ li:hover{
     font-size: 20px;
     margin: 5px;
     display: block;
+    align-items: center;
 }
