@@ -11,7 +11,8 @@ html, body{
 #caixa{
     height: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer{
@@ -44,7 +45,6 @@ a{
     display: block;
     color:inherit;
     font-size: 25px;
-    align-items: center;
 }
 a:hover{
     color: black;
@@ -69,7 +69,8 @@ body{
     background-image: url('/Components/img/fundoo.png');
     background-size: cover;
     background-position: center;
-    
+    align-items: center;
+
     
 }
 .links{
@@ -103,4 +104,12 @@ li:hover{
     margin: 5px;
     display: block;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;            /* Remove o padding padrão */
+    margin: 0;   
 }
