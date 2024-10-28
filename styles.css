@@ -86,7 +86,8 @@ body{
     margin: 10px 40% 10px 40%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background-color 0.5s ease, transform 0.5s ease;
-    
+    width: 100%;             /* Faz o link ocupar 100% da largura do container */
+    box-sizing: border-box;  /* Inclui a borda no cálculo da largura */
 }
 
 .links{
@@ -116,3 +117,8 @@ ul{
     padding: 0;            /* Remove o padding padrão */
     margin: 0;   
 }
+@media (max-width: 200px) {
+    .link {
+      max-width: 30%; /* Ajusta o tamanho máximo para telas menores */
+    }
+  }
