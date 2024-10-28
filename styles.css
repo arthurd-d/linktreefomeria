@@ -38,6 +38,9 @@ img{
     margin: 0 auto;
     display: block;
     align-items: center;
+    max-width: 100%; /* Limita a largura máxima ao tamanho do container */
+    height: auto;    /* Mantém a proporção da imagem */
+    width: auto;     /* Ajusta a largura de forma responsiva */
 }
 
 a{
